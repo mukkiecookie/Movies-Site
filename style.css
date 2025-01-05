@@ -52,10 +52,11 @@ input{
 
 .center-content {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction: column;
 }
 
 .thumbnail{
